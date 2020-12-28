@@ -650,3 +650,12 @@ end)
 print("Settings Loaded")
 
 
+--r15
+local setting = venyx:addPage("R15 Anims", 5012544693)
+local information = setting:addSection("Information")
+information:addButton("either use /e print (check server console.)🕺", function()
+end, function()
+end)
+
+print ("r15 loaded")
+
